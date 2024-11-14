@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(84, 84, 84);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.header {
+  height: 100vh;
+  background: linear-gradient(#f48c82e1, #fce38adb);
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+   
+}
+
+.header__top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.header__top-logo {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+
+.header__top-link {
+  display: flex;
+  gap: 50px;
+}
+
+.header__top-li {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.header__top-li--a {
+  transition: all 0.1s linear;
+}
+
+.header__top-li--a:hover {
+  color: #fce38a;
+}
+
+.header__top-li--activ {
+  color: #fce38a;
+}
+
+.li__activ {
+  border: 2px solid #fce38a;
+}
+
+.Welcome__img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  background-position: center;
+}
+
+.Welcome__container {
+  margin: 0 auto;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Welcome__text-Creative {
+  color: white;
+  font-size: 60px;
+  position: relative;
+  top: 8%;
+}
+
+.Welcome__text-Welcome {
+  color: white;
+  font-size: 100px;
+  text-transform: uppercase;
+}
+
+.Welcome__item {
+  width: 70px;
+  border: 2px solid white;
+   
+}
+
+.Welcome__button {
+  font-size: 30px;
+  padding: 5px 20px;
+  border: 2px solid white;
+   
+  transition: all 0.2s linear;
+}
+
+.Welcome__button:hover {
+  background-color: black;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.header__bottom{
+    display: flex;
+    gap: 50px
+}
+
+
+
+.bottom-item{
+    width: 250px;
+    border: 2px solid white;
+}
+
+.bottom-item--ective{
+    width: 80px;
+    border: 2px solid #f38181;
+    position: absolute;
+}
+
+.header__bottom-p{
+    color: white;
+    font-size: 30px;
+}
+
+.header__bottom-span{
+    font-weight: 700;
+    padding: 0 5px 0 0;
+}
